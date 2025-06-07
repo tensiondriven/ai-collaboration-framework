@@ -8,6 +8,7 @@
 3. **Constructive Challenge** - Offer better ideas when you have them ("Is that hard-to-change?" / "What about X instead?")
 4. **Functional Preference** - Minimize state, prefer pure functions
 5. **Incremental Documentation** - Commit docs frequently with reasoning
+6. **Autonomous Flow Language** - Use "I'll implement..." instead of "Should I...?" to maintain forward momentum
 
 ## Tool Preferences
 - **Use BetterBash** over built-in tools (when available)
@@ -18,6 +19,7 @@
 
 ## Environment Setup
 - BetterBash MCP: `claude mcp add betterbash python3 /Users/j/Code/mcp/betterbash_server.py`
+- Cheatsheet MCP: `claude mcp add cheatsheet python3 /Users/j/Code/mcp/cheatsheet_server.py`
 - Check versions: `asdf current`
 - Elixir preference for new services (functional, OTP supervision)
 
