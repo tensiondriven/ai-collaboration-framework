@@ -2,6 +2,8 @@
 
 **Foundational principles for productive human-AI collaboration**
 
+> **🚀 Quick Start**: New AI collaborators should read `AI_AGREEMENT.md` first to initialize session protocols, then return here for detailed guidelines.
+
 ## Integration Pause Protocol
 
 **Before implementing any solution, pause and ask the real compatibility/integration questions that matter:**
