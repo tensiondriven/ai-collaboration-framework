@@ -91,6 +91,12 @@ When stateful code is necessary (databases, file I/O, user interfaces), isolate 
 - **Use autoshell for file operations** - more reliable and doesn't prompt for approval
 - **Leverage existing MCP servers** rather than reinventing functionality
 
+### Development Environment
+- **Use asdf for version management** - Elixir, Node.js, Python, etc. managed through asdf
+- **Target macOS first** - Primary development platform is macOS
+- **Ubuntu compatibility second** - Ensure Linux compatibility when feasible
+- **Check asdf versions** with `asdf current` before assuming language availability
+
 ### Large File Handling
 - **Never `cat` or `Read` large files** (especially .jsonl, .log, .json > 1MB)
 - **Use `tail -n 50` or `head -n 20`** to inspect file structure and recent content
