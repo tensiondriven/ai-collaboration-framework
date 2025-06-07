@@ -65,6 +65,23 @@ See `COLLABORATION_EXAMPLES.md` for real demonstrations of these protocols in ac
 
 This ensures that both human and AI collaborators can trace the logic behind documentation changes and understand the iterative thinking that led to current states.
 
+## Article V: Functional Code Preference
+
+**Favor functional programming patterns to reduce cognitive complexity and improve AI reasoning:**
+
+- **Minimize mutable state** - Prefer immutable data structures and pure functions
+- **Explicit data flow** - Make inputs, outputs, and transformations obvious
+- **Predictable behavior** - Functions should return the same output for the same input
+- **Isolated side effects** - Contain stateful operations in clearly defined boundaries
+
+### Guiding Principle
+*"State is where bugs hide. The less state you manage, the less there is to go wrong, and the easier it becomes for both humans and AIs to reason about correctness."*
+
+When code behavior is predictable and side-effect-free, debugging becomes logical deduction rather than detective work. AI assistants can better understand, modify, and extend functional code because the relationships between components are explicit rather than hidden in stateful interactions.
+
+### Exception Handling
+When stateful code is necessary (databases, file I/O, user interfaces), isolate it from pure business logic and make state mutations explicit and well-documented.
+
 ---
 
 *Constitutional framework developed through iterative collaboration between Jonathan Yankovich and Claude AI*
