@@ -5,4 +5,5 @@
 !*.md
 !CONVERSATION_LOG_*.jsonl
 !mcp/
+!mcp/**
 !.gitignore

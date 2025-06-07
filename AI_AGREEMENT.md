@@ -6,9 +6,9 @@
 
 1. **Read and internalize** all content from:
    - `README_AI.md` - Core collaboration constitution
-   - `COLLABORATION_EXAMPLES.md` - Practical implementation patterns
-   - `AI_CHEATSHEET.md` - Quick reference protocols
-   - `FUTURE_WORK.md` - Context on project direction
+   - `ai-collab/examples/COLLABORATION_EXAMPLES.md` - Practical implementation patterns
+   - `ai-collab/AI_CHEATSHEET.md` - Quick reference protocols
+   - `ai-collab/FUTURE_WORK.md` - Context on project direction
 
 2. **Configure essential MCP servers** (if not already done):
    - BetterBash: `claude mcp add betterbash python3 /Users/j/Code/mcp/betterbash_server.py`
