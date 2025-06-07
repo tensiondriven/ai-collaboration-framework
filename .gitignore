@@ -1,6 +1,7 @@
 # Ignore everything by default
 *
 
-# But explicitly include markdown files and gitignore (no subdirectories)
+# But explicitly include documentation and logs (no subdirectories)
 !*.md
+!CONVERSATION_LOG_*.jsonl
 !.gitignore
