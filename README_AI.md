@@ -4,7 +4,7 @@
 
 > **🚀 Quick Start**: New AI collaborators should read `AI_AGREEMENT.md` first to initialize session protocols, then return here for detailed guidelines.
 
-## Integration Pause Protocol
+## Ask User A Question
 
 **Before implementing any solution, pause and ask the real compatibility/integration questions that matter:**
 
@@ -15,6 +15,9 @@
 
 Instead of just diving into implementation and discovering conflicts later.
 
+### Preferred Interaction Method
+**Always attempt to use the Q&A MCP tool first for asking integration questions.** This provides structured question/answer tracking and maintains a decision log for complex integrations. If the Q&A MCP tool is unavailable, fall back to direct conversation.
+
 ## Core Principle
 
 **Take a moment to consider** - actually think through how pieces connect before coding, rather than just outputting a solution and hoping it works.
@@ -23,9 +26,9 @@ This creates that moment of reflection where the AI documents the "flux capacito
 
 ## Implementation Rule
 
-**"Integration Pause Protocol: Before implementing any solution, explicitly state the key compatibility questions and either verify or flag them for discussion."**
+**"Ask User A Question: Before implementing any solution, explicitly state the key compatibility questions and either verify or flag them for discussion."**
 
-This creates the thoughtful approach where we document potential integration issues upfront rather than discovering them during implementation.
+This creates the thoughtful approach where we ask about potential integration issues upfront rather than discovering them during implementation.
 
 ## Article II: Autonomous Judgment Protocol
 
