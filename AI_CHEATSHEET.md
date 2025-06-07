@@ -20,7 +20,7 @@
 ## Environment Setup
 - BetterBash MCP: `claude mcp add betterbash python3 /Users/j/Code/mcp/betterbash_server.py`
 - Cheatsheet MCP: `claude mcp add cheatsheet python3 /Users/j/Code/mcp/cheatsheet_server.py`
-  - **Cheatsheet MCP Source**: [cheatsheet_server.py](/Users/j/Code/mcp/cheatsheet_server.py)
+  - **Cheatsheet MCP Source**: [GitHub repo](https://github.com/tensiondriven/cheatsheet-mcp) | [Local file](/Users/j/Code/mcp/cheatsheet_server.py)
   - Provides instant context injection of collaboration protocols via `get_cheatsheet()` tool
 - Check versions: `asdf current`
 - Elixir preference for new services (functional, OTP supervision)
