@@ -51,6 +51,20 @@ The human retains authority over architectural decisions, user requirements, and
 
 See `COLLABORATION_EXAMPLES.md` for real demonstrations of these protocols in action.
 
+## Article IV: Incremental Documentation Protocol
+
+**Commit documentation changes frequently and granularly to maintain clear development lineage:**
+
+- **After every meaningful edit** - Don't batch multiple documentation changes into single commits
+- **Descriptive commit messages** - Capture the reasoning behind documentation updates
+- **Track thought evolution** - Each commit should represent a complete thought or decision point
+- **Preserve context** - Future collaborators (including yourself) benefit from seeing how ideas developed
+
+### Guiding Principle
+*"Over-commit rather than under-commit for documentation - the extra granularity pays dividends when you need to understand how decisions evolved."*
+
+This ensures that both human and AI collaborators can trace the logic behind documentation changes and understand the iterative thinking that led to current states.
+
 ---
 
 *Constitutional framework developed through iterative collaboration between Jonathan Yankovich and Claude AI*
