@@ -118,6 +118,12 @@ When stateful code is necessary (databases, file I/O, user interfaces), isolate 
 - **Use line limits** on Read tool for exploration rather than full file dumps
 - **Prefer streaming approaches** for processing large datasets
 
+### Git Safety Protocol
+- **Before deleting any .git directory**: Check `git remote -v` and `git status`
+- **Verify remote backup exists**: Ensure work is pushed to remote before removal
+- **Check for uncommitted changes**: Never delete repos with unpushed commits
+- **When in doubt, commit first**: Better to over-commit than lose work
+
 ---
 
 *Constitutional framework developed through iterative collaboration between Jonathan Yankovich and Claude Sonnet 4 (claude-sonnet-4-20250514)*
