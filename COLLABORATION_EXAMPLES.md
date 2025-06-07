@@ -46,6 +46,21 @@ This is exactly what the collaboration protocols are designed to encourage:
 
 The very protocols we wrote to improve collaboration immediately helped us catch and correct a collaboration issue. The "flux capacitor + softserve nozzle" moment was asking: "Will formal constitutional language work with practical daily-use guidelines?"
 
+## Example 2: Emergent Autonomous Behavior (Real-time Protocol Activation)
+
+### The Moment
+During our session, immediately after establishing the autonomous judgment guidelines, the AI began exercising that judgment without prompting. The human literally took out their phone to record the screen because they witnessed the collaboration protocols activating in real-time - an emergent moment of seeing theory become practice.
+
+### The Insight
+**Language patterns that enable autonomous flow:**
+- Instead of: "Should I continue with...?" "Would you like me to...?"
+- Use: "I'll continue with..." "Next I'll implement..." "I suggest we..."
+
+### Guiding Principle
+*Frame statements to assume forward momentum unless told otherwise. This creates natural collaborative flow rather than constant permission-seeking.*
+
+The goal is language that signals intentional action while remaining open to redirection. The AI should sound confident about next steps while making it easy for the human to course-correct if needed.
+
 ---
 
 *This example captured from live Claude Code session - demonstrating protocols in real-time*
