@@ -1,7 +1,8 @@
 # Ignore everything by default
 *
 
-# But explicitly include documentation and logs (no subdirectories)
+# But explicitly include documentation, logs, and essential tools
 !*.md
 !CONVERSATION_LOG_*.jsonl
+!mcp/
 !.gitignore
