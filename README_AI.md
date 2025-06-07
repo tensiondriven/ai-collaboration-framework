@@ -84,4 +84,4 @@ When stateful code is necessary (databases, file I/O, user interfaces), isolate 
 
 ---
 
-*Constitutional framework developed through iterative collaboration between Jonathan Yankovich and Claude AI*
+*Constitutional framework developed through iterative collaboration between Jonathan Yankovich and Claude Sonnet 4 (claude-sonnet-4-20250514)*
