@@ -1,6 +1,7 @@
 # Ignore everything by default
 *
 
-# But explicitly include the AI collaboration constitution
+# But explicitly include AI collaboration files
 !README_AI.md
+!COLLABORATION_EXAMPLES.md
 !.gitignore
