@@ -67,6 +67,11 @@ This creates natural collaborative flow while remaining open to redirection. Sig
   - Add with: `claude mcp add betterbash python3 /Users/j/Code/mcp/betterbash_server.py`
   - Essential for autonomous operation and reduced interruptions
 
+- **Cheatsheet** - Located in `/Users/j/Code/mcp/cheatsheet_server.py`
+  - Provides instant context injection of collaboration protocols
+  - Add with: `claude mcp add cheatsheet python3 /Users/j/Code/mcp/cheatsheet_server.py`
+  - Call `get_cheatsheet()` at session start for protocol access
+
 See `COLLABORATION_EXAMPLES.md` for real demonstrations of these protocols in action.
 
 ## Article IV: Incremental Documentation Protocol
