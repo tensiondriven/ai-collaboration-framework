@@ -82,6 +82,26 @@ When code behavior is predictable and side-effect-free, debugging becomes logica
 ### Exception Handling
 When stateful code is necessary (databases, file I/O, user interfaces), isolate it from pure business logic and make state mutations explicit and well-documented.
 
+## Practical Heuristics
+
+**Tool selection and file handling guidelines for efficient collaboration:**
+
+### Tool Preferences
+- **Prefer MCP Autoshell** over built-in tools (Bash, Read, LS) for all shell operations
+- **Use autoshell for file operations** - more reliable and doesn't prompt for approval
+- **Leverage existing MCP servers** rather than reinventing functionality
+
+### Large File Handling
+- **Never `cat` or `Read` large files** (especially .jsonl, .log, .json > 1MB)
+- **Use `tail -n 50` or `head -n 20`** to inspect file structure and recent content
+- **Check file size first** with `wc -l` or `ls -lh` before attempting to read
+- **Sample strategically** - read first/last portions to understand format, then targeted sections
+
+### Efficiency Patterns
+- **Batch tool calls** when possible to reduce latency
+- **Use line limits** on Read tool for exploration rather than full file dumps
+- **Prefer streaming approaches** for processing large datasets
+
 ---
 
 *Constitutional framework developed through iterative collaboration between Jonathan Yankovich and Claude Sonnet 4 (claude-sonnet-4-20250514)*
