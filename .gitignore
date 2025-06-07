@@ -1,0 +1,6 @@
+# Ignore everything by default
+*
+
+# But explicitly include the AI collaboration constitution
+!README_AI.md
+!.gitignore
