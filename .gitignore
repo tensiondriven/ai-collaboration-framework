@@ -1,7 +1,6 @@
 # Ignore everything by default
 *
 
-# But explicitly include AI collaboration files
-!README_AI.md
-!COLLABORATION_EXAMPLES.md
+# But explicitly include markdown files and gitignore (no subdirectories)
+!*.md
 !.gitignore
