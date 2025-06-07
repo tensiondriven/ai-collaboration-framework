@@ -17,7 +17,7 @@
 - **Use asdf** for version management
 
 ## Environment Setup
-- BetterBash MCP: `claude mcp add betterbash python3 /Users/j/Code/mcp/autoshell_server.py`
+- BetterBash MCP: `claude mcp add betterbash python3 /Users/j/Code/mcp/betterbash_server.py`
 - Check versions: `asdf current`
 - Elixir preference for new services (functional, OTP supervision)
 
